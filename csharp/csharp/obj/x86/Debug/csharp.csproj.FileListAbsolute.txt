@@ -1,0 +1,4 @@
+W:\Users\joshuacarroll\Documents\Github\scoredata\csharp\csharp\bin\Debug\csharp.exe
+W:\Users\joshuacarroll\Documents\Github\scoredata\csharp\csharp\bin\Debug\csharp.pdb
+W:\Users\joshuacarroll\Documents\Github\scoredata\csharp\csharp\obj\x86\Debug\csharp.exe
+W:\Users\joshuacarroll\Documents\Github\scoredata\csharp\csharp\obj\x86\Debug\csharp.pdb

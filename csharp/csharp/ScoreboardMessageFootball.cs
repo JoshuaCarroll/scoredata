@@ -2,59 +2,71 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO.Ports;
-using System.Diagnostics;
 
-namespace csharp
+namespace Daktronics.AllSport5000
 {
-    class Program
+    class ScoreboardMessageFootball
     {
-        static byte[] currentMessage = new byte[0];
-        static string lastMessageText = string.Empty;
+        private string lastMessageText = string.Empty;
 
-        static void Main(string[] args)
-        {
-            string portName = Settings.Default.SerialPortName;
+        /// <summary>
+        /// Main clock time as mm:ss or, if there is less than one minute on the game clock, ss.t) 
+        /// </summary>
+        public string MainClockConditional;
+        /// <summary>
+        /// Main clock time as mm:ss.t
+        /// </summary>
+        public string MainClockTime;
+        /// <summary>
+        /// Time from the element currently being timed (main clock, time out, or time of day) as mm:ss or, if there is less than one minute on the clock, ss.t)
+        /// </summary>
+        public string MainClockTimeOutConditional;
+        /// <summary>
+        /// Time from the element currently being timed (main clock, time out, or time of day) as mm:ss.t
+        /// </summary>
+        public string MainClockTimeOutTime;
+        public bool MainClockIsZero;
+        public bool MainClockIsStopped;
+        public bool MainClockTimeOutHornEnabled;
+        public bool MainClockHornEnabled;
+        public bool TimeOutHornEnabled;
+        /// <summary>
+        /// Time Out Time (mm:ss) 
+        /// </summary>
+        public string TimeOutTime;
+        /// <summary>
+        /// Time of Day (hh:mm:ss) 
+        /// </summary>
+        public string TimeOfDay;
+        public string HomeTeamName;
+        public string GuestTeamName;
+        public string HomeTeamNameAbbr;
+        public string GuestTeamNameAbbr;
+        public string HomeTeamScore;
+        public string GuestTeamScore;
+        public string HomeTimeOutsLeftFull;
+        public string HomeTimeOutsLeftPartial;
+        public string HomeTimeOutsLeftTelevision;
+        public string HomeTimeOutsLeftTotal;
+        public string GuestTimeOutsLeftFull;
+        public string GuestTimeOutsLeftPartial;
+        public string GuestTimeOutsLeftTelevision;
+        public string GuestTimeOutsLeftTotal;
+        public bool HomeTimeOut;
+        public bool GuestTimeOut;
+        public string Quarter;
+        /// <summary>
+        /// Quarter Text ('1st ', 'OT', 'OT/2') 
+        /// </summary>
+        public string QuarterText;
+        /// <summary>
+        /// Quarter Description ('End of 1st') 
+        /// </summary>
+        public string QuarterDescription;
 
-            SerialPort port = new SerialPort(portName, 19200);
-            port.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
 
-            port.Open();
 
-            Console.WriteLine("** Press ESC to stop monitoring the serial port ** ");
-            do
-            {
-                while (!Console.KeyAvailable)
-                {
-                    // Go handle events
-                }
-            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-           
-            port.Close();
-        }
-
-        private static void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e)
-        {
-            SerialPort sp = (SerialPort)sender;
-
-            int length = sp.BytesToRead;
-            byte[] buffer = new byte[length];
-
-            sp.Read(buffer, 0, length);
-
-            // Add this to the full message buffer
-            currentMessage = Combine(currentMessage, buffer);
-
-            // The End-of-Transmission Block (ETB) character is at the end of each message,
-            //  and is always the last character in a block (on this scoreboard).
-            if (buffer[buffer.Length - 1] == 23)
-            {
-                ProcessMessage(currentMessage);
-                currentMessage = new byte[0];
-            }
-        }
-
-        private static void ProcessMessage(byte[] message)
+        public ScoreboardMessageFootball(byte[] message)
         {
             int posSTX = 0;
             int posEOT = 0;
@@ -95,6 +107,8 @@ namespace csharp
 
                     // Uncomment to see raw output
                     Console.WriteLine(text + " (" + text.Length.ToString() + ")");
+
+                    
 
                     if (text.Length == 31)
                     {
@@ -189,14 +203,6 @@ namespace csharp
                     }
                 }
             }
-        }
-
-        public static byte[] Combine(byte[] first, byte[] second)
-        {
-            byte[] ret = new byte[first.Length + second.Length];
-            Buffer.BlockCopy(first, 0, ret, 0, first.Length);
-            Buffer.BlockCopy(second, 0, ret, first.Length, second.Length);
-            return ret;
-        }
+        }       
     }
 }

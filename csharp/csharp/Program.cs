@@ -14,6 +14,11 @@ namespace csharp
 
         static void Main(string[] args)
         {
+            ListenForMessages();
+        }
+
+        private static void ListenForMessages()
+        {
             string portName = Settings.Default.SerialPortName;
 
             SerialPort port = new SerialPort(portName, 19200);
@@ -29,10 +34,9 @@ namespace csharp
                     // Go handle events
                 }
             } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-           
+
             port.Close();
         }
-
         private static void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e)
         {
             SerialPort sp = (SerialPort)sender;
@@ -53,7 +57,6 @@ namespace csharp
                 currentMessage = new byte[0];
             }
         }
-
         private static void ProcessMessage(byte[] message)
         {
             int posSTX = 0;
@@ -190,7 +193,6 @@ namespace csharp
                 }
             }
         }
-
         public static byte[] Combine(byte[] first, byte[] second)
         {
             byte[] ret = new byte[first.Length + second.Length];

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtMessages.Text" xml:space="preserve">
+    <value>&#x16;00000000&#x1;0042100000&#x2;16:0916:09   16:0916:09    s   &#x4;49&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0916:09   16:0916:09    s   &#x4;49&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0916:09   16:0916:09    s   &#x4;49&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0916:09   16:0916:09        &#x4;F6&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0816:08   16:0816:08        &#x4;F2&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0716:07   16:0716:07        &#x4;EE&#x17;&#x16;00000000&#x1;0042100111&#x2;  96&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0616:06   16:0616:06        &#x4;EA&#x17;&#x16;00000000&#x1;0042100111&#x2;  99&#x4;23&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2; 101&#x4;23&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0516:05   16:0516:05        &#x4;E6&#x17;&#x16;00000000&#x1;0042100111&#x2; 102&#x4;24&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0416:04   16:0416:04        &#x4;E2&#x17;&#x16;00000000&#x1;0042100107&#x2;  41&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  44&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0316:03   16:0316:03        &#x4;DE&#x17;&#x16;00000000&#x1;0042100107&#x2;  46&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  47&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0216:02   16:0216:02        &#x4;DA&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0116:01   16:0116:01        &#x4;D6&#x17;&#x16;00000000&#x1;0042100000&#x2;16:0016:00   16:0016:00        &#x4;D2&#x17;&#x16;00000000&#x1;0042100107&#x2;  46&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5915:59   15:5915:59        &#x4;06&#x17;&#x16;00000000&#x1;0042100107&#x2;  45&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  44&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5815:58   15:5815:58        &#x4;02&#x17;&#x16;00000000&#x1;0042100107&#x2;  43&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5715:57   15:5715:57        &#x4;FE&#x17;&#x16;00000000&#x1;0042100107&#x2;  42&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  41&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5615:56   15:5615:56        &#x4;FA&#x17;&#x16;00000000&#x1;0042100107&#x2;  40&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5515:55   15:5515:55        &#x4;F6&#x17;&#x16;00000000&#x1;0042100107&#x2;  39&#x4;22&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5415:54   15:5415:54        &#x4;F2&#x17;&#x16;00000000&#x1;0042100107&#x2;  38&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  37&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5315:53   15:5315:53        &#x4;EE&#x17;&#x16;00000000&#x1;0042100107&#x2;  36&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  35&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  34&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  33&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5215:52   15:5215:52        &#x4;EA&#x17;&#x16;00000000&#x1;0042100107&#x2;  32&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  31&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  30&#x4;19&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5115:51   15:5115:51        &#x4;E6&#x17;&#x16;00000000&#x1;0042100107&#x2;  29&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  28&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  27&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:5015:50   15:5015:50        &#x4;E2&#x17;&#x16;00000000&#x1;0042100107&#x2;  26&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  25&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  24&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  23&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  22&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4915:49   15:4915:49        &#x4;02&#x17;&#x16;00000000&#x1;0042100107&#x2;  21&#x4;19&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  20&#x4;18&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  19&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100107&#x2;  18&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4815:48   15:4815:48        &#x4;FE&#x17;&#x16;00000000&#x1;0042100111&#x2; 101&#x4;23&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4715:47   15:4715:47        &#x4;FA&#x17;&#x16;00000000&#x1;0042100111&#x2; 100&#x4;22&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  99&#x4;23&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  98&#x4;22&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  97&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  96&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4615:46   15:4615:46        &#x4;F6&#x17;&#x16;00000000&#x1;0042100111&#x2;  95&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  94&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  93&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  92&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4515:45   15:4515:45        &#x4;F2&#x17;&#x16;00000000&#x1;0042100111&#x2;  91&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  90&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  89&#x4;22&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  88&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4415:44   15:4415:44        &#x4;EE&#x17;&#x16;00000000&#x1;0042100111&#x2;  87&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  86&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  85&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4315:43   15:4315:43        &#x4;EA&#x17;&#x16;00000000&#x1;0042100111&#x2;  84&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  83&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  82&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  81&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  80&#x4;19&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4215:42   15:4215:42        &#x4;E6&#x17;&#x16;00000000&#x1;0042100111&#x2;  79&#x4;21&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  78&#x4;20&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  77&#x4;1F&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  76&#x4;1E&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  75&#x4;1D&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4115:41   15:4115:41        &#x4;E2&#x17;&#x16;00000000&#x1;0042100111&#x2;  74&#x4;1C&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  73&#x4;1B&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  72&#x4;1A&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100111&#x2;  71&#x4;19&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:4015:40   15:4015:40        &#x4;DE&#x17;&#x16;00000000&#x1;0042100111&#x2;  70&#x4;18&#x17;&#x16;00000000&#x1;0042100219&#x2;       &#x4;5A&#x17;&#x16;00000000&#x1;0042100334&#x2;           &#x4;D8&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39        &#x4;FE&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39    s   &#x4;51&#x17;&#x16;00000000&#x1;003010006&#x4;3F&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39    s                   STEAM               TEMPTATION          LFLAS2    LFLLAT      18  70 0 0 0 0 1 0 0 1           22ND 2ND Quarter  cc                     64025100402         25                                                                0   0   0   0   0   0 1 0                                                   &#x4;B9&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39    s   &#x4;51&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39    s   &#x4;51&#x17;&#x16;00000000&#x1;0042100000&#x2;15:3915:39   15:3915:39    s   &#x4;51&#x17;</value>
+  </data>
+  <metadata name="serialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+</root>

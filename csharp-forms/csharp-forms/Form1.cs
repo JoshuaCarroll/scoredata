@@ -111,21 +111,5 @@ namespace csharp_forms
             Buffer.BlockCopy(second, 0, ret, first.Length, second.Length);
             return ret;
         }
-
-
-        // ===== UNIT TEST ===================================== \/
-        private void button1_Click(object sender, EventArgs e)
-        {
-            openFileDialog1.ShowDialog();
-            if (openFileDialog1.FileName != string.Empty)
-            {
-                ///TODO: Read contents into a variable separated by ETB characters
-            }
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            ///TODO: Read next line of file and create new message object, update form, etc
-        }
     }
 }
